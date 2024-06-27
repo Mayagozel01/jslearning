@@ -1,8 +1,8 @@
 # jslearning
+##here is js examples to understand each theme reduce.
 ```
-here is js examples to understand each theme
-reduce.
-using reduce to find the max element in array
+
+//using reduce to find the max element in array
 const grades =[10,30,863,-5,78,545,45];
 
 const maxGrade = grades.reduce((**max**, currentVal)=>{
