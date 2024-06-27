@@ -4,7 +4,7 @@ reduce.
 using reduce to find the max element in array
 const grades =[10,30,863,-5,78,545,45];
 
-const maxGrade = grades.reduce((max, currentVal)=>{
+const maxGrade = grades.reduce((**max**, currentVal)=>{
     if (currentVal>max) return currentVal;
 return max
 
