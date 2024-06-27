@@ -1,0 +1,26 @@
+# computed property - bu [] sheyle yaylaryn ichinde yazylan uytgeyji. 
+### **dynamic** property name diysenem yalnysh bolmaz
+## beyle uytgeyjiler obyektin ady, yagny key-i hokmunde ulanylyar.
+
+```
+let name = 'ady';
+let lastName = 'Jumakuly';
+let newProperty = 'yashy';
+let vezipesi = 'mugallym';
+let ugry = 'fizika';
+
+const person = {
+[vezipesi]:ugry,
+[name]:'Maya'
+}
+console.log(person);
+
+
+ let addProperty = (obj,propety, value)=>{
+       return {...obj, [propety]:value}
+       //[property] - computed property
+ }
+
+ console.log(addProperty(person, newProperty, 24));
+
+```
