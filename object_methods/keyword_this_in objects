@@ -19,3 +19,4 @@
 ### shunna dashky scope-da test-in usti bn obyektin metodyny chagyryarys. ol hem shol obyektin ichindaki beyleki bir metoda yuzlenyar. ol **this** keywordy ulanyar.
 # bu this.fullName () is not function diyen errory berer
 ## sebabi this dine oz chagyrylyan scopyna degishli
+# yene bir ayratynlyk arrow function this ulanyp shol obyektin propertisine yetip bolanok. onna bashgacarak etmeli
