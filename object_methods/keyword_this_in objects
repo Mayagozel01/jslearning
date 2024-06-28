@@ -1,0 +1,21 @@
+## this bu yerine yetyan (execute bolyan) scope-daky obyekte refence(salgylanma)
+```
+       let person = {
+        first :'John',
+        last: 'Noo',
+        fullName(){
+            console.log(`${this.first} ${this.last}`)
+        },
+
+        printFullame(){
+            return this.fullName()
+        }
+       }
+
+       let test = person.printFullame;
+       test();
+
+```
+### shunna dashky scope-da test-in usti bn obyektin metodyny chagyryarys. ol hem shol obyektin ichindaki beyleki bir metoda yuzlenyar. ol **this** keywordy ulanyar.
+# bu this.fullName () is not function diyen errory berer
+## sebabi this dine oz chagyrylyan scopyna degishli
