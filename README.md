@@ -1,4 +1,6 @@
 # jslearning
+# js-owrenmek
+# programirleme
 ## here is js examples to understand each theme reduce.
 ```
 
