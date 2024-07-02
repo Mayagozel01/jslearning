@@ -96,3 +96,22 @@ console.log(tom.eat());
 console.log(monti.meaw());
 // Monti says: MEOOOOW
 ```
+###
+Inni diyeli bize cat uchin taze bir ayratyn hasiyet goshmaly bolduk. nadip goshmaly?
+bu gaty ansat, onun **super()** sozunden peydalanmaly.
+##
+```
+class Cat extends Pet{
+  constructor(name, age, livesLeft=9){
+   super(name, age);
+   this.livesLeft = livesLeft
+  }
+  meaw(){
+    return `${this.name} says: MEOOOOW`;
+  }
+}
+```
+##
+barde **super(name, age)**  --- this.name = name; this.age = age; shunun gysgaldylan gornushi dp goz onune getirip bolar.
+##
+yagny **super**-de yazylan hasiyetler Pet klasynda bar bolan hasiyetler. haysy yok bolsa gaytadan beyan etmeli.
