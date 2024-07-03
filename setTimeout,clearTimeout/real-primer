@@ -1,0 +1,43 @@
+servere zapros edyan hakyky primer. barde ulanyjy gozleg `input`-yna yazyp bolanson bir sekuntdan servere 
+zapros gitmeli.
+eger sheyle time delay goyulmasa onna her harp (duwme) basmadan sonra servere zapros gider we
+ol serwere agram salar.
+shunna clearTimeout ulanmak gaty yerlikli bolyar.
+###
+```
+
+const fetchData = async (searchTerm)=>{
+ const response = await axios.get('http://www.omdbapi.com/', {
+    params:{
+        apikey: '4d10ede7',
+        s: searchTerm
+    }
+    //params -bu axios-a params automatiki yagdayda goshmak uchin ayratynlyk
+    // yagny shular yaly zat emele getirip berya 'https://www.omdbapi.com/?apikey=4d10ede7&s=avengers'
+ })   
+ console.log(response.data);
+}
+
+const input = document.querySelector('input');
+//search uchin input.
+
+let timeoutId ;
+const onInput = event =>{
+    if (timeoutId){
+        clearTimeout(timeoutId)
+        //time delay. her sapar shunnan onki setTimeout-y togtatdyar.
+    }
+
+    timeoutId = setTimeout(()=>{
+        fetchData(event.target.value);
+    //knopka basylandan sonra 1s-dan fetchData ishlemeli.
+    //eger 1 sekunt gechip yetishmedik bolsa
+    //onda yokarky shert bcha time delay bolya.
+    //yagny fetchData chagyrylmayar.
+    },1000)
+    
+
+}
+
+input.addEventListener('input', onInput);
+```
