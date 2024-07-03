@@ -1,7 +1,7 @@
 ### jslearning
 ### js-owrenmek
 ### programirleme
-## here is js examples to understand each theme reduce.
+### here is js examples to understand each theme reduce.
 ```
 
 //using reduce to find the max element in array
