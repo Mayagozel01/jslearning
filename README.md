@@ -17,3 +17,4 @@ console.log(maxGrade);
 // first argument in reduce is the specific chased value and second argument is currentValue that will be chased in conditon of callback
 
 ```
+js class-lara Array, String  we sh.m degishli 19-njy papka 1-nji video
