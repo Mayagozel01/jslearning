@@ -3,6 +3,7 @@
 ### programirleme
 ### here is js examples to understand each theme reduce.
 #### rus dilinde js gaytalamak uchin gowy [gollanma ](https://doka.guide/js/array-reduce/)
+#### https://learn.javascript.ru/javascript-specials
 ```
 
 //using reduce to find the max element in array
