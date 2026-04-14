@@ -29,3 +29,24 @@ Aşakdaky görkezme **`message`** atly üýtgeýjini döredýär (başgaça aýd
 let message;
 message = 'Hello'; // сохранить строку 'Hello' в переменной с именем message
  ```
+## `let` ornuna `var` hem ulanyp bolar
+
+Köne skriptlerde siz başga bir açar sözüni hem görüp bilersiňiz: **`let`** ýerine **`var`**:
+
+```
+javascript
+var message = 'Hello';
+```
+<br>
+#### **`var`** açar sözi — diýen ýaly **`let`** bilen birmeňzeş. Ol hem üýtgeýjini yglan edýär, ýöne biraz başgaça, “könelen” usulda. **`let`** bilen  **`var`** arasynda käbir inçe tapawutlar bar, ýöne häzirki wagtda olar biziň üçin möhüm däl.
+## 🧠 Durmuşdan analogiýa
+
+Biz **“üýtgeýji”** düşünjesine aňsat düşünip bileris, eger ony üstünde aýratyn ady ýazylan **maglumatlar üçin “gutujyk”** hökmünde göz öňüne getirsek.
+
+Mysal üçin, `message` üýtgeýjini üstünde **"message"** diýen ady bolan we içinde **"Hello!"** bahasy saklanýan gutujyk hökmünde göz öňüne getirip bileris:
+
+<br>
+<img width="531" height="444" alt="variables 8b5fdef 1744" src="https://github.com/user-attachments/assets/b6efe176-5baa-4d97-b239-a6fa2839b4c6" />
+
+ 
+ 
