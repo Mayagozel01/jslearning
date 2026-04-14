@@ -21,5 +21,6 @@ Brauzerde bolsa JavaScript üçin web sahypalaryny dolandyrmak, ulanyjy bilen ö
 ## Üýtgeýji (Variable)
 **Üýtgeýji** – bu maglumatlary saklamak üçin **“atlar gory”**. Biz üýtgeýjileride harytlary, sahypa girýän ulanyjylary we başga maglumatlary saklamak üçin ulanyp bileris.
 JavaScript-de üýtgeýji döretmek üçin **`let`** açar sözi ulanylýar.
-Aşakdaky görkezme **`message`** atly üýtgeýjini döredýär (başgaça aýdanyňda, yglan edýär):
+Aşakdaky görkezme **`message`** atly üýtgeýjini döredýär (başgaça aýdanyňda, yglan edýär):<br>
+
 ``` let message; ```
