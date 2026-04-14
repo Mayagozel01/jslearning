@@ -18,3 +18,8 @@ Brauzerde bolsa JavaScript üçin web sahypalaryny dolandyrmak, ulanyjy bilen ö
 - Uzakdaky serwerlere tor soraglaryny (ýüzlenmeleri) ibermek, faýllary ýüklemek we düşürmek (AJAX we COMET tehnologiýalary)  
 - Cookie-lary almak we goýmak, ulanyja sorag bermek, habarnamalar görkezmek  
 - Müşderi tarapynda maglumatlary saklamak (local storage)  
+## Üýtgeýji (Variable)
+**Üýtgeýji** – bu maglumatlary saklamak üçin **“atlar gory”**. Biz üýtgeýjileride harytlary, sahypa girýän ulanyjylary we başga maglumatlary saklamak üçin ulanyp bileris.
+JavaScript-de üýtgeýji döretmek üçin **`let`** açar sözi ulanylýar.
+Aşakdaky görkezme **`message`** atly üýtgeýjini döredýär (başgaça aýdanyňda, yglan edýär):
+``` let message; ```
