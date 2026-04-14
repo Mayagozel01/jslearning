@@ -25,5 +25,7 @@ Aşakdaky görkezme **`message`** atly üýtgeýjini döredýär (başgaça aýd
 
 ``` let message; ```
 #### indi üýtgeýjide maglumat ýerleşdirip (baha dakyp) bileris. dakmak operatory **`=`** <br>
-``` let message;
-message = 'Hello'; // сохранить строку 'Hello' в переменной с именем message ```
+```
+let message;
+message = 'Hello'; // сохранить строку 'Hello' в переменной с именем message
+ ```
